@@ -1,0 +1,12 @@
+#! /usr/bin/env ruby
+hitch = system("which hitch")
+if hitch
+  puts "\e\[32m"
+  puts `hitch`
+  puts "\e\[0m"
+  puts "If that ain't right do the following:"
+  puts
+  puts "$ hitch pair1 pair2"
+  puts "$ git commit --amend --author='Pair One and Pair Two <dev+pair1+pair2@domain.com>'"
+  puts
+end
