@@ -2,7 +2,7 @@
 hitch = system("which hitch")
 if hitch
   puts "\e\[32m"
-  puts `hitch`
+  puts `which hitch`
   puts "\e\[0m"
   puts "If that ain't right do the following:"
   puts
