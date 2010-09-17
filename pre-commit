@@ -7,6 +7,6 @@ if hitch
   puts "If that ain't right do the following:"
   puts
   puts "$ hitch pair1 pair2"
-  puts "$ git commit --amend --author='Pair One and Pair Two <dev+pair1+pair2@domain.com>'"
+  puts %Q{$ git commit --amend --author="`hitch`"}
   puts
 end
